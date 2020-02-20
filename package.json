@@ -8,8 +8,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "nodemon server/index.js",
     "start-front": "react-scripts start",
+    "build": "react-scripts build",
     "heroku-postbuild": "react-scripts build"
   },
   "keywords": [],
